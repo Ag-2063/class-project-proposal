@@ -1,28 +1,27 @@
-# TipEasy
-TipEasy is a simple web app that helps people quickly figure out how much to tip at a restaurant. The user types in the amount of the bill and chooses the tip percentage. The app figures out the tip and the final bill amount on its own. This tool is meant to make paying for meals easier and faster.
+# ColorPersonalityTest
+ColorPersonalityTest is a web application that allows users to answer a series of personality-based questions and receive a result that matches their personality type with a specific color. Each color represents a different personality category such as Red (Leader), Orange (Socializer), Yellow (Optimist), Green (Helper), Blue (Thinker), Indigo (Intuitive), and Violet (Visionary). From an end-user perspective, the application is designed to be fun, interactive, and easy to use, giving users a quick way to learn more about their personality type.
 # Technology Overview
 Languages: HTML, CSS, JavaScript
 Libraries: None (basic JavaScript functions)
 Platform: Web browser
 Hosting: GitHub Pages
 # Proposal Last Updated
-March 28, 2026
+April 12, 2026
 # Feature List 
-User enters the bill amount
-User selects tip percentage (10%, 15%, 20%)
-Automatic tip calculation
-Display total bill including tip
-Simple and easy-to-use interface
+Interactive multiple-choice personality questionnaire
+Automatic calculation of personality type based on user answers
+Color-based result assignment (7 rainbow categories)
+Results page displaying personality description
+Simple and user-friendly interface
 # Future Feature List
-Split the bill between multiple people
-Custom tip percentage option
-Save previous calculations
-Mobile-friendly design
+More detailed personality categories
+User accounts to save results
+More advanced question logic (weighted answers)
 # Basic Technical Features
-HTML form inputs
+HTML forms for quiz questions
 CSS styling for layout and design
-JavaScript functions for calculations
+JavaScript logic for scoring and results
 # Advanced Technical Features
-Use localStorage to save previous bill calculations
-Responsive design for mobile devices
-Real-time calculation without pressing a button
+Local storage to save previous results
+Responsive design for mobile and desktop
+Modular JavaScript functions for scalability
