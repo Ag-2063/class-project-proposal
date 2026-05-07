@@ -156,7 +156,9 @@ function loadQuestion() {
 
   q.options.forEach(opt => {
     const btn = document.createElement("div");
+
     btn.classList.add("option");
+
     btn.innerText = opt.text;
 
     btn.onclick = () => selectAnswer(opt.color);
@@ -194,6 +196,18 @@ function showResult() {
     Violet: "Visionary 💜 - You are imaginative, creative, and full of new ideas."
   };
 
+  let bgColors = {
+    Red: "#ff4d4d",
+    Orange: "#ff944d",
+    Yellow: "#ffe066",
+    Green: "#66cc66",
+    Blue: "#4d79ff",
+    Indigo: "#5c6bc0",
+    Violet: "#b366ff"
+  };
+
+  document.body.style.backgroundColor = bgColors[topColor];
+
   resultDiv.classList.remove("hidden");
 
   resultDiv.innerHTML = `
@@ -201,7 +215,5 @@ function showResult() {
     <p>${descriptions[topColor]}</p>
   `;
 }
-
-nextBtn.addEventListener("click", loadQuestion);
 
 loadQuestion();
