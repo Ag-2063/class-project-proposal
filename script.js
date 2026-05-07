@@ -146,6 +146,10 @@ const quizDiv = document.getElementById("quiz");
 const nextBtn = document.getElementById("nextBtn");
 const resultDiv = document.getElementById("result");
 
+const startScreen = document.getElementById("startScreen");
+const quizContainer = document.getElementById("quizContainer");
+const startBtn = document.getElementById("startBtn");
+
 function loadQuestion() {
   const q = questions[currentQuestion];
 
