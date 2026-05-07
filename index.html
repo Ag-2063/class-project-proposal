@@ -10,8 +10,10 @@
 
 <body>
 
-  <div class="container">
-    <h1> Color Personality Quiz</h1>
+  <!-- START SCREEN -->
+  <div class="container" id="startScreen">
+
+    <h1>Color Personality Quiz</h1>
 
     <p class="instructions">
       Welcome to the Color Personality Quiz!
@@ -19,20 +21,18 @@
       You will answer 10 personality questions.
       <br><br>
       Choose the option that best describes you.
-      At the end of the quiz, you will discover your personality color and receive a personality description.
       <br><br>
-      Your background color will also change to match your personality result.
+      At the end of the quiz, you will discover your personality color.
     </p>
 
     <button id="startBtn">Start Quiz</button>
+
   </div>
 
   <!-- QUIZ SCREEN -->
   <div class="container hidden" id="quizContainer">
 
     <div id="quiz"></div>
-
-    <button id="nextBtn" class="hidden">Next</button>
 
     <div id="result" class="hidden"></div>
 
