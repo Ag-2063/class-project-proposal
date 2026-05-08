@@ -25,3 +25,15 @@ JavaScript logic for scoring and results
 Local storage to save previous results
 Responsive design for mobile and desktop
 Modular JavaScript functions for scalability
+# Project Proposal Reference
+This project was originally based on the Class Project Proposal described above (last updated April 12, 2026). The goal was to create an interactive Color Personality Test web application that assigns users a personality type based on their answers.
+# What was delivered
+The final implemented project includes:
+- Fully functional interactive personality quiz using HTML, CSS, and JavaScript
+- 7 color-based personality results (Red, Orange, Yellow, Green, Blue, Indigo, Violet)
+- Automatic scoring system that calculates results based on user answers
+- Results page that displays the user’s personality type with a small description
+- Clean and simple user interface designed for usability
+# Differences from the original proposal
+- The final implementation evolved from the original concept, incorporating a revised design and adjusted feature set to create a more dynamic and engaging user experience.  
+- The application was refined to be more broadly applicable, making it suitable for a wider range of users over time.
